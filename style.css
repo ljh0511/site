@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'SuncheonB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    font-family: 'SuncheonB';
+    font-size: 100%;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+main{
+    text-align: center;
+}
+article {
+    width: 50%;
+    left: 50%;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1vw;
+    margin-bottom: 10px;
+}
+
+/*  header  */
+
+.logo{
+    width: 190px;
+    margin-top: 2px;
+   
+}
+.main-nav{
+    display: flex;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    list-style: none;
+ 
+}
+.main-nav li{
+    margin-left: 40px;
+}
+.main-nav a{
+    color: white;
+}
+.main-nav a:hover{
+    color: #818181;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*  container  */
+
+.pic{
+    height: 100px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin: 30px;
+    padding: 10px; 
+}
+.item{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/*  introduction  */
+.font1{
+    text-align: center;
+    color: black;
+}
+.fomt2{
+    text-align: center;
+    color: black;
+}
+
+/*  box  */
+
+footer{
+    position : relative;
+    transform : translateY(-100%);
+    margin-top: 20px;
+}
+.footer-text{
+
+    min-height: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+/* 사진 확대 */
+.click img{
+    transition: all 0.2s linear;
+}
+.click:hover img{
+    transform: scale(1.4);
+}
